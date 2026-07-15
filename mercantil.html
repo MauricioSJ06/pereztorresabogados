@@ -1,125 +1,136 @@
 <!DOCTYPE html>
-<html class="light scroll-smooth" lang="es">
+<html class="scroll-smooth" lang="es">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Derecho Mercantil | Pérez Torres Abogados</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
 <script id="tailwind-config">
-      tailwind.config = {
-        darkMode: "class",
-        theme: {
-          extend: {
-            colors: {
-                    "surface": "#faf8ff",
-                    "surface-dim": "#dad9e0",
-                    "surface-bright": "#faf8ff",
-                    "surface-container-lowest": "#ffffff",
-                    "surface-container-low": "#f4f3f9",
-                    "surface-container": "#eeedf3",
-                    "surface-container-high": "#e9e7ee",
-                    "surface-container-highest": "#e3e2e8",
-                    "on-surface": "#1a1b20",
-                    "on-surface-variant": "#444650",
-                    "inverse-surface": "#2f3035",
-                    "inverse-on-surface": "#f1f0f6",
-                    "outline": "#757682",
-                    "outline-variant": "#c4c6d2",
-                    "surface-tint": "#415ca0",
-                    "primary": "#002363",
-                    "on-primary": "#ffffff",
-                    "primary-container": "#1d3a7d",
-                    "on-primary-container": "#8da7f1",
-                    "inverse-primary": "#b3c5ff",
-                    "secondary": "#735a3a",
-                    "on-secondary": "#ffffff",
-                    "secondary-container": "#fddab2",
-                    "on-secondary-container": "#785e3e",
-                    "tertiary": "#1a2a36",
-                    "on-tertiary": "#ffffff",
-                    "tertiary-container": "#30404d",
-                    "on-tertiary-container": "#9babba",
-                    "error": "#ba1a1a",
-                    "on-error": "#ffffff",
-                    "error-container": "#ffdad6",
-                    "on-error-container": "#93000a",
-                    "primary-fixed": "#dae1ff",
-                    "primary-fixed-dim": "#b3c5ff",
-                    "on-primary-fixed": "#001849",
-                    "on-primary-fixed-variant": "#284387",
-                    "secondary-fixed": "#ffddb6",
-                    "secondary-fixed-dim": "#e2c19b",
-                    "on-secondary-fixed": "#291801",
-                    "on-secondary-fixed-variant": "#594325",
-                    "tertiary-fixed": "#d4e5f5",
-                    "tertiary-fixed-dim": "#b8c8d8",
-                    "on-tertiary-fixed": "#0d1d29",
-                    "on-tertiary-fixed-variant": "#394955",
-                    "background": "#faf8ff",
-                    "on-background": "#1a1b20",
-                    "surface-variant": "#e3e2e8",
-                    "oxford-navy": "#1D3A7D",
-                    "heritage-gold": "#A68966",
-                    "statute-gray": "#333333",
-                    "parchment": "#F9F9F9",
-                    "silver-lining": "#DADADA"
-            },
-            borderRadius: {
-                    DEFAULT: "0px",
-                    lg: "0px",
-                    xl: "0px",
-                    full: "9999px"
-            },
-            spacing: {
-                    "unit": "8px",
-                    "container-max": "1200px",
-                    "gutter": "32px",
-                    "margin-mobile": "20px",
-                    "section-padding": "120px"
-            },
-            fontFamily: {
-                    "display-lg": ["Playfair Display", "serif"],
-                    "display-lg-mobile": ["Playfair Display", "serif"],
-                    "headline-md": ["Playfair Display", "serif"],
-                    "headline-sm": ["Playfair Display", "serif"],
-                    "body-lg": ["Inter", "sans-serif"],
-                    "body-md": ["Inter", "sans-serif"],
-                    "label-caps": ["Inter", "sans-serif"],
-                    "callout": ["Inter", "sans-serif"]
-            },
-            fontSize: {
-                    "display-lg": ["48px", { lineHeight: "1.1", letterSpacing: "-0.02em", fontWeight: "700" }],
-                    "display-lg-mobile": ["36px", { lineHeight: "1.2", fontWeight: "700" }],
-                    "headline-md": ["32px", { lineHeight: "1.3", fontWeight: "600" }],
-                    "headline-sm": ["24px", { lineHeight: "1.4", fontWeight: "600" }],
-                    "body-lg": ["18px", { lineHeight: "1.6", fontWeight: "400" }],
-                    "body-md": ["16px", { lineHeight: "1.6", fontWeight: "400" }],
-                    "label-caps": ["12px", { lineHeight: "1.2", letterSpacing: "0.1em", fontWeight: "600" }],
-                    "callout": ["14px", { lineHeight: "1.4", fontWeight: "500" }]
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              colors: {
+                      "surface": "#faf8ff",
+                      "surface-dim": "#dad9e0",
+                      "surface-bright": "#faf8ff",
+                      "surface-container-lowest": "#ffffff",
+                      "surface-container-low": "#f4f3f9",
+                      "surface-container": "#eeedf3",
+                      "surface-container-high": "#e9e7ee",
+                      "surface-container-highest": "#e3e2e8",
+                      "on-surface": "#1a1b20",
+                      "on-surface-variant": "#444650",
+                      "inverse-surface": "#2f3035",
+                      "inverse-on-surface": "#f1f0f6",
+                      "outline": "#757682",
+                      "outline-variant": "#c4c6d2",
+                      "surface-tint": "#415ca0",
+                      "primary": "#002363",
+                      "on-primary": "#ffffff",
+                      "primary-container": "#1d3a7d",
+                      "on-primary-container": "#8da7f1",
+                      "inverse-primary": "#b3c5ff",
+                      "secondary": "#735a3a",
+                      "on-secondary": "#ffffff",
+                      "secondary-container": "#fddab2",
+                      "on-secondary-container": "#785e3e",
+                      "tertiary": "#1a2a36",
+                      "on-tertiary": "#ffffff",
+                      "tertiary-container": "#30404d",
+                      "on-tertiary-container": "#9babba",
+                      "error": "#ba1a1a",
+                      "on-error": "#ffffff",
+                      "error-container": "#ffdad6",
+                      "on-error-container": "#93000a",
+                      "primary-fixed": "#dae1ff",
+                      "primary-fixed-dim": "#b3c5ff",
+                      "on-primary-fixed": "#001849",
+                      "on-primary-fixed-variant": "#284387",
+                      "secondary-fixed": "#ffddb6",
+                      "secondary-fixed-dim": "#e2c19b",
+                      "on-secondary-fixed": "#291801",
+                      "on-secondary-fixed-variant": "#594325",
+                      "tertiary-fixed": "#d4e5f5",
+                      "tertiary-fixed-dim": "#b8c8d8",
+                      "on-tertiary-fixed": "#0d1d29",
+                      "on-tertiary-fixed-variant": "#394955",
+                      "background": "#faf8ff",
+                      "on-background": "#1a1b20",
+                      "surface-variant": "#e3e2e8",
+                      "oxford-navy": "#1D3A7D",
+                      "heritage-gold": "#A68966",
+                      "statute-gray": "#333333",
+                      "parchment": "#F9F9F9",
+                      "silver-lining": "#DADADA"
+              },
+              borderRadius: {
+                      DEFAULT: "0px",
+                      lg: "0px",
+                      xl: "0px",
+                      full: "9999px"
+              },
+              spacing: {
+                      "margin-mobile": "20px",
+                      "unit": "8px",
+                      "section-padding": "120px",
+                      "gutter": "32px",
+                      "container-max": "1200px"
+              },
+              fontFamily: {
+                      "display-lg": ["Playfair Display", "serif"],
+                      "display-lg-mobile": ["Playfair Display", "serif"],
+                      "headline-md": ["Playfair Display", "serif"],
+                      "headline-sm": ["Playfair Display", "serif"],
+                      "body-lg": ["Inter", "sans-serif"],
+                      "body-md": ["Inter", "sans-serif"],
+                      "label-caps": ["Inter", "sans-serif"],
+                      "callout": ["Inter", "sans-serif"]
+              },
+              fontSize: {
+                      "display-lg": ["48px", { lineHeight: "1.1", letterSpacing: "-0.02em", fontWeight: "700" }],
+                      "display-lg-mobile": ["36px", { lineHeight: "1.2", fontWeight: "700" }],
+                      "headline-md": ["32px", { lineHeight: "1.3", fontWeight: "600" }],
+                      "headline-sm": ["24px", { lineHeight: "1.4", fontWeight: "600" }],
+                      "body-lg": ["18px", { lineHeight: "1.6", fontWeight: "400" }],
+                      "body-md": ["16px", { lineHeight: "1.6", fontWeight: "400" }],
+                      "label-caps": ["12px", { lineHeight: "1.2", letterSpacing: "0.1em", fontWeight: "600" }],
+                      "callout": ["14px", { lineHeight: "1.4", fontWeight: "500" }]
+              }
             }
           }
         }
-      }
 </script>
 <link href="assets/css/styles.css" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        .text-glow {
+            text-shadow: 0 0 15px rgba(166, 137, 102, 0.2);
+        }
+</style>
 </head>
-<body class="bg-surface font-body-md text-on-surface antialiased selection:bg-heritage-gold selection:text-white">
+<body class="bg-surface text-on-surface font-body-md antialiased selection:bg-heritage-gold selection:text-white overflow-x-hidden">
 <!-- TopNavBar -->
-<header class="fixed top-0 w-full z-50 border-t-2 border-heritage-gold bg-surface transition-all duration-300 shadow-sm" id="main-nav">
+<header class="fixed top-0 w-full z-50 border-t-2 border-heritage-gold bg-surface transition-all duration-300" id="main-nav">
 <div class="flex justify-between items-center px-gutter py-4 max-w-container-max mx-auto">
 <a aria-label="Inicio" class="flex-shrink-0" href="index.html">
-<span class="text-headline-sm font-headline-sm text-oxford-navy">Pérez Torres Abogados</span>
+<img alt="Pérez Torres Abogados Logo" class="h-10 w-auto" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBJ_l4yKp8gtZUF535gF2Mq884dUzQyMpjyR5EX4iLi7D7RBy8-oOlwfobmyH5FwVCNeBCmKc_kUAohmU5wdyKBwELNoi8IP8jTVc3iRWFOyQ3jL4YkPiqn4anDPJ91hms7RpMCDEklC80M-chhhKL8aYy8sgNc6S5Y41mu-hV3PLt_H3nlQmFOU5Nqn7Hbz8E5VIvQmxwqwrbnWJkfFqYtgUa49pDJastOmv5yj53yAOeFDthoZ6ja6OREYq1nRXG8TNY"/>
 </a>
 <nav class="hidden lg:flex items-center space-x-8">
-<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-heritage-gold transition-colors duration-300" href="index.html">Inicio</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-heritage-gold transition-colors duration-300" href="index.html#inicio">Inicio</a>
 <div class="relative group">
-<a class="font-label-caps text-label-caps text-oxford-navy font-bold border-b-2 border-oxford-navy pb-1 hover:text-heritage-gold transition-colors duration-300 flex items-center gap-1" href="index.html#areas">Áreas <span class="material-symbols-outlined text-sm">expand_more</span></a>
+<a class="font-label-caps text-label-caps text-oxford-navy font-bold border-b-2 border-oxford-navy pb-1 flex items-center gap-1" href="index.html#areas">Áreas <span class="material-symbols-outlined text-sm">expand_more</span></a>
 <div class="absolute left-0 mt-2 w-56 bg-white border border-silver-lining shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 py-2">
 <a class="block px-4 py-2 text-xs font-label-caps text-oxford-navy hover:bg-surface-container-low hover:text-heritage-gold transition-colors" href="administrativo.html">Administrativo</a>
 <a class="block px-4 py-2 text-xs font-label-caps text-oxford-navy hover:bg-surface-container-low hover:text-heritage-gold transition-colors" href="fiscal.html">Fiscal</a>
 <a class="block px-4 py-2 text-xs font-label-caps text-oxford-navy hover:bg-surface-container-low hover:text-heritage-gold transition-colors" href="familiar.html">Familiar</a>
 <a class="block px-4 py-2 text-xs font-label-caps text-oxford-navy hover:bg-surface-container-low hover:text-heritage-gold transition-colors" href="civil.html">Civil</a>
-<a class="block px-4 py-2 text-xs font-label-caps text-oxford-navy bg-surface-container-low text-heritage-gold" href="mercantil.html">Mercantil</a>
+<a class="block px-4 py-2 text-xs font-label-caps text-oxford-navy bg-surface-container-low font-bold" href="mercantil.html">Mercantil</a>
 </div>
 </div>
 <a class="font-label-caps text-label-caps text-on-surface-variant hover:text-heritage-gold transition-colors duration-300" href="index.html#resultados">Resultados</a>
@@ -128,8 +139,11 @@
 <a class="font-label-caps text-label-caps text-on-surface-variant hover:text-heritage-gold transition-colors duration-300" href="index.html#recursos">Recursos</a>
 </nav>
 <div class="hidden md:flex items-center space-x-6">
-<span class="font-label-caps text-label-caps text-heritage-gold">4.9/5 Google</span>
-<a class="bg-oxford-navy text-white px-6 py-2.5 font-label-caps text-label-caps hover:bg-opacity-90 transition-all uppercase tracking-widest inline-flex items-center" href="index.html#contacto">Consulta gratuita</a>
+<div class="flex items-center space-x-2 text-statute-gray font-callout text-callout">
+<span class="material-symbols-outlined text-heritage-gold" style="font-variation-settings: 'FILL' 1;">star</span>
+<span>4.9/5 Google</span>
+</div>
+<a class="bg-oxford-navy text-white px-6 py-3 font-label-caps text-label-caps uppercase tracking-wider hover:bg-opacity-90 transition-all rounded-none border border-transparent" href="index.html#contacto">Consulta gratuita</a>
 </div>
 <button aria-label="Menu" class="lg:hidden text-oxford-navy p-2" id="mobile-menu-btn">
 <span class="material-symbols-outlined text-2xl">menu</span>
@@ -138,14 +152,14 @@
 <!-- Mobile Menu -->
 <div class="lg:hidden hidden bg-white border-b border-silver-lining px-gutter py-4" id="mobile-menu">
 <nav class="flex flex-col space-y-4">
-<a class="font-label-caps text-label-caps text-on-surface-variant" href="index.html">Inicio</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-heritage-gold" href="index.html#inicio">Inicio</a>
 <a class="font-label-caps text-label-caps text-oxford-navy font-bold" href="index.html#areas">Áreas de Práctica</a>
 <div class="pl-4 flex flex-col space-y-2 border-l-2 border-heritage-gold/30">
 <a class="text-xs text-statute-gray hover:text-heritage-gold" href="administrativo.html">Administrativo</a>
 <a class="text-xs text-statute-gray hover:text-heritage-gold" href="fiscal.html">Fiscal</a>
 <a class="text-xs text-statute-gray hover:text-heritage-gold" href="familiar.html">Familiar</a>
 <a class="text-xs text-statute-gray hover:text-heritage-gold" href="civil.html">Civil</a>
-<a class="text-xs text-heritage-gold font-bold" href="mercantil.html">Mercantil</a>
+<a class="text-xs font-bold text-oxford-navy" href="mercantil.html">Mercantil</a>
 </div>
 <a class="font-label-caps text-label-caps text-on-surface-variant hover:text-heritage-gold" href="index.html#resultados">Resultados</a>
 <a class="font-label-caps text-label-caps text-on-surface-variant hover:text-heritage-gold" href="index.html#equipo">Equipo</a>
@@ -155,122 +169,128 @@
 </nav>
 </div>
 </header>
+
 <main class="pt-24">
 <!-- Hero Section -->
-<section class="relative py-section-padding px-margin-mobile md:px-gutter max-w-container-max mx-auto border-b border-silver-lining hero-pattern">
-<div class="max-w-3xl space-y-8">
-<div class="flex items-center gap-2">
-<span class="w-8 h-[2px] bg-heritage-gold"></span>
-<span class="font-label-caps text-label-caps text-heritage-gold uppercase tracking-[0.2em]">Especialidad Corporativa</span>
+<header class="relative py-section-padding px-gutter max-w-container-max mx-auto overflow-hidden">
+<div class="absolute right-0 top-0 w-1/3 h-full opacity-5 pointer-events-none">
+<span class="material-symbols-outlined text-[300px] text-oxford-navy" style="font-variation-settings: 'wght' 100;">gavel</span>
 </div>
-<h1 class="font-display-lg text-display-lg-mobile md:text-display-lg text-oxford-navy leading-tight">
-                    Derecho Mercantil y Recuperación de <span class="italic font-light text-heritage-gold">Cartera</span>
-</h1>
-<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
-                    Estrategia en litigio mercantil, cobranza judicial y extrajudicial, títulos de crédito y solución de controversias entre socios. Protegemos la liquidez y continuidad operativa de su empresa.
+<div class="relative z-10 md:w-2/3">
+<a class="inline-flex items-center gap-2 mb-8 group cursor-pointer" href="index.html">
+<span class="material-symbols-outlined text-heritage-gold">arrow_back</span>
+<span class="font-label-caps text-label-caps text-heritage-gold uppercase tracking-widest group-hover:translate-x-1 transition-transform">Regresar a Inicio</span>
+</a>
+<h1 class="font-display-lg text-display-lg-mobile md:text-display-lg text-oxford-navy mb-6">Derecho Mercantil</h1>
+<div class="w-24 h-0.5 bg-heritage-gold mb-8"></div>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl leading-relaxed">
+                    Soluciones legales estratégicas para corporaciones, socios comerciales y controversias financieras. Proteger las relaciones de negocio y el capital es nuestra especialidad con alto rigor técnico.
                 </p>
-<div class="flex flex-wrap gap-4 pt-4">
-<a class="bg-oxford-navy text-white px-8 py-4 font-label-caps text-label-caps uppercase tracking-widest hover:bg-opacity-90 transition-all flex items-center gap-3 shadow-sm" href="https://wa.me/525523963530?text=Hola%2C%20tengo%20una%20consulta%20sobre%20derecho%20mercantil" target="_blank">
-<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">chat</span>
-                        Consulta Corporativa por WhatsApp
-                    </a>
-<a class="flex items-center gap-2 font-label-caps text-label-caps text-oxford-navy border-b border-oxford-navy pb-1 hover:text-heritage-gold hover:border-heritage-gold transition-all" href="index.html">
-<span class="material-symbols-outlined text-[16px]">arrow_back</span>
-                        Regresar a Inicio
-                    </a>
 </div>
-</div>
-</section>
-<!-- Detailed Services Layout -->
-<section class="py-section-padding px-gutter max-w-container-max mx-auto">
-<div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-20">
+</header>
+<!-- Image & Bento Grid Layout -->
+<section class="py-section-padding px-gutter max-w-container-max mx-auto border-t border-silver-lining">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
+<div class="lg:col-span-5 flex flex-col justify-between">
 <div>
-<h2 class="font-headline-md text-headline-md text-oxford-navy mb-4">Servicios Mercantiles</h2>
-<div class="w-16 h-1 bg-heritage-gold"></div>
-<p class="font-body-md text-body-md text-statute-gray mt-6">
-                        Brindamos certeza jurídica y representación contundente para salvaguardar las operaciones comerciales, el capital social y los activos de negocios en la Ciudad de México y el país.
+<span class="font-label-caps text-label-caps text-heritage-gold uppercase tracking-[0.15em] mb-4 block">Especialización de Alto Nivel</span>
+<h2 class="font-headline-md text-headline-md text-oxford-navy mb-8">Excelencia en Litigio y Consultoría Comercial</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8 leading-relaxed">
+                        Nuestra firma se distingue por una metodología analítica rigurosa, orientada a blindar las operaciones comerciales de nuestros clientes y resolver disputas complejas ante los tribunales mercantiles del país.
                     </p>
 </div>
-<div class="md:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-8">
-<!-- Service 1 -->
-<div class="bg-parchment p-8 border-l-4 border-heritage-gold shadow-sm">
-<h3 class="font-headline-sm text-headline-sm text-oxford-navy mb-3">Cobranza Judicial y Extrajudicial</h3>
-<p class="font-body-md text-body-md text-on-surface-variant">
-                            Recuperación ágil y contundente de cartera vencida y créditos adeudados por clientes o proveedores infractores mediante estrategias judiciales en vía ejecutiva u ordinaria.
-                        </p>
-</div>
-<!-- Service 2 -->
-<div class="bg-parchment p-8 border-l-4 border-heritage-gold shadow-sm">
-<h3 class="font-headline-sm text-headline-sm text-oxford-navy mb-3">Títulos de Crédito y Ejecutivos</h3>
-<p class="font-body-md text-body-md text-on-surface-variant">
-                            Ejecución inmediata del cobro de pagarés, cheques, letras de cambio y facturas con reconocimiento judicial para asegurar el pronto pago de lo adeudado.
-                        </p>
-</div>
-<!-- Service 3 -->
-<div class="bg-parchment p-8 border-l-4 border-heritage-gold shadow-sm">
-<h3 class="font-headline-sm text-headline-sm text-oxford-navy mb-3">Controversias de Socios y Accionistas</h3>
-<p class="font-body-md text-body-md text-on-surface-variant">
-                            Litigio y negociación en conflictos societarios, rendición de cuentas de administradores, exclusión de socios e impugnación de asambleas corporativas irregulares.
-                        </p>
-</div>
-<!-- Service 4 -->
-<div class="bg-parchment p-8 border-l-4 border-heritage-gold shadow-sm">
-<h3 class="font-headline-sm text-headline-sm text-oxford-navy mb-3">Contratos Mercantiles y Garantías</h3>
-<p class="font-body-md text-body-md text-on-surface-variant">
-                            Estructuración de contratos de distribución, suministro, comisión, franquicia y fideicomisos mercantiles con cláusulas blindadas ante incumplimientos.
-                        </p>
+<div class="aspect-[4/5] bg-cover bg-center border border-silver-lining relative overflow-hidden" data-alt="A cinematic, ultra-sharp interior photograph of a private conference room in a boutique law firm. A polished mahogany table reflects subtle architectural lighting, with a leather briefcase and legal documents neatly laid out. The color profile emphasizes deep navy, muted charcoal, and rich gold accents, projecting immense institutional authority, corporate prestige, and discretion." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD8mR4J4f5hVwA5E3b5WkS1hC6m-N3W4B5o6p8Q9r0S1t2U3v4W5x6Y7z8A9b0C1d2E3f4G5h6I7j8K9l0M1n2O3p4Q5r6S7t8U9v0W1x2Y3z4A5b6C7d8E9f0G1h2I3j4K5l6M7n8O9p0Q1r2S3t4U5v6W7x8Y9z0A1b2C3d4E5f6G7h8I9j0K1l2M3n4O5p6Q7r8S9t0')">
+<div class="absolute inset-0 bg-oxford-navy/10"></div>
 </div>
 </div>
+<div class="lg:col-span-7 grid grid-cols-1 md:grid-cols-2 gap-6">
+<!-- Service 1: Contratos Mercantiles -->
+<div class="md:col-span-2 bg-white border border-silver-lining p-8 hover:border-heritage-gold transition-colors duration-300">
+<div class="flex items-start justify-between mb-6">
+<span class="material-symbols-outlined text-heritage-gold text-3xl">description</span>
+<span class="font-label-caps text-[10px] text-on-surface-variant/60 uppercase tracking-widest">Servicio Preventivo &amp; Litigio</span>
 </div>
-<!-- Institutional Authority Banner -->
-<div class="bg-oxford-navy text-white p-12 md:p-16 relative overflow-hidden">
-<div class="absolute right-0 bottom-0 opacity-10 translate-x-10 translate-y-10">
-<span class="material-symbols-outlined text-[240px]">business_center</span>
-</div>
-<div class="relative z-10 max-w-2xl space-y-6">
-<span class="font-label-caps text-label-caps text-heritage-gold uppercase tracking-widest">Defensa Corporativa</span>
-<h3 class="font-headline-md text-headline-md">Juicios Mercantiles Ordinarios, Orales y Ejecutivos</h3>
-<p class="font-body-md text-body-md text-white/80 leading-relaxed">
-                        Nuestra práctica en litigio mercantil abarca la representación en todas las instancias judiciales ante juzgados del fuero común y tribunales federales, asegurando la adopción temprana de providencias precautorias y embargos para garantizar el cobro efectivo de sus créditos.
+<h3 class="font-headline-sm text-headline-sm text-oxford-navy mb-3">Contratos Mercantiles</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                        Elaboración, revisión técnica y defensa legal en contratos y convenios mercantiles. Aseguramos que cada cláusula de sus acuerdos financieros, de distribución, proveeduría o sociedad represente sus intereses y prevenga contingencias judiciales o pérdidas patrimoniales.
                     </p>
+</div>
+<!-- Service 2: Juicio Ejecutivo Mercantil -->
+<div class="md:col-span-1 bg-white border border-silver-lining p-8 hover:border-heritage-gold transition-colors duration-300 flex flex-col justify-between">
+<div>
+<span class="material-symbols-outlined text-heritage-gold text-3xl mb-6">payments</span>
+<h3 class="font-headline-sm text-headline-sm text-oxford-navy mb-3">Juicio Ejecutivo Mercantil</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                            Recuperación ágil y contundente de créditos respaldados por títulos de crédito (pagarés, cheques, letras de cambio), implementando medidas cautelares de embargo de bienes desde el inicio procesal.
+                        </p>
+</div>
+<div class="mt-6 pt-4 border-t border-silver-lining/50 flex items-center text-xs font-label-caps text-heritage-gold uppercase tracking-widest">
+<span>Cobranza Judicial</span>
+</div>
+</div>
+<!-- Service 3: Juicio Ordinario Mercantil -->
+<div class="md:col-span-1 bg-white border border-silver-lining p-8 hover:border-heritage-gold transition-colors duration-300 flex flex-col justify-between">
+<div>
+<span class="material-symbols-outlined text-heritage-gold text-3xl mb-6">gavel</span>
+<h3 class="font-headline-sm text-headline-sm text-oxford-navy mb-3">Juicio Ordinario Mercantil</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                            Representación estratégica en controversias complejas derivadas de actos de comercio, incumplimiento general de contratos de negocios, nulidad de asambleas societarias y disputas entre accionistas.
+                        </p>
+</div>
+<div class="mt-6 pt-4 border-t border-silver-lining/50 flex items-center text-xs font-label-caps text-heritage-gold uppercase tracking-widest">
+<span>Litigio Corporativo</span>
+</div>
+</div>
+<!-- Contextual Banner -->
+<div class="md:col-span-2 bg-parchment border border-silver-lining p-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-oxford-navy text-2xl">verified_user</span>
+<div>
+<h4 class="font-callout text-callout text-oxford-navy font-bold">¿Necesita una revisión urgente de sus contratos comerciales?</h4>
+<p class="text-xs text-on-surface-variant">Un diagnóstico preventivo a tiempo evita litigios largos y costosos.</p>
+</div>
+</div>
+<a class="bg-oxford-navy text-white px-6 py-3 font-label-caps text-label-caps uppercase tracking-widest hover:bg-heritage-gold transition-colors flex-shrink-0" href="https://wa.me/525523963530?text=Hola%2C%20solicito%20revisi%C3%B3n%20de%20mis%20contratos%20mercantiles" target="_blank">
+                        Iniciar Consulta
+                    </a>
+</div>
 </div>
 </div>
 </section>
-<!-- Direct Contact / Final CTA -->
-<section class="py-section-padding bg-surface-container-low border-t border-silver-lining">
-<div class="max-w-container-max mx-auto px-gutter text-center space-y-8">
-<h2 class="font-headline-md text-headline-md text-oxford-navy max-w-2xl mx-auto">
-                    ¿Requiere recuperar una deuda o enfrentar un litigio mercantil?
-                </h2>
-<p class="font-body-lg text-body-lg text-statute-gray max-w-xl mx-auto">
-                    Un diagnóstico a tiempo previene la insolvencia del deudor y garantiza acciones eficaces de embargo precautorio.
-                </p>
-<div class="flex flex-col sm:flex-row justify-center items-center gap-6 pt-4">
-<a class="bg-heritage-gold text-white px-10 py-5 font-label-caps text-label-caps uppercase tracking-widest hover:brightness-110 transition-all flex items-center gap-3 shadow-md w-full sm:w-auto justify-center" href="https://wa.me/525523963530?text=Hola%2C%20tengo%20una%20consulta%20sobre%20derecho%20mercantil" style="background-color: #c2a37e;" target="_blank">
+<!-- CTA Section -->
+<section class="py-section-padding px-gutter text-center bg-oxford-navy text-on-primary relative overflow-hidden">
+<div class="relative z-10 max-w-3xl mx-auto">
+<span class="font-label-caps text-label-caps text-heritage-gold uppercase tracking-[0.2em] mb-6 block">Respaldo Corporativo</span>
+<h2 class="font-headline-md text-headline-md mb-8">Resuelva sus controversias comerciales con el respaldo de expertos.</h2>
+<a class="inline-flex items-center gap-4 bg-heritage-gold text-white px-10 py-5 font-label-caps text-label-caps uppercase tracking-widest hover:brightness-110 transition-all active:scale-95" href="https://wa.me/525523963530?text=Hola%2C%20tengo%20una%20consulta%20sobre%20derecho%20mercantil" style="background-color: #c2a37e;" target="_blank">
 <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">chat</span>
-                        Inicie una Consulta Corporativa
-                    </a>
-<a class="flex items-center justify-center border border-heritage-gold text-oxford-navy font-label-caps text-label-caps px-8 py-5 hover:bg-parchment transition-all uppercase tracking-widest w-full sm:w-auto" href="index.html">
-                        Regresar a Inicio
-                    </a>
-</div>
+                    Agendar Consulta Vía WhatsApp
+                </a>
 </div>
 </section>
+<!-- Back Navigation Footer-ish -->
+<div class="py-12 border-t border-silver-lining flex justify-center bg-surface">
+<a class="font-label-caps text-label-caps text-on-surface-variant flex items-center gap-2 hover:text-heritage-gold transition-colors" href="index.html">
+<span class="material-symbols-outlined text-sm">home</span>
+                Regresar a la página principal del despacho
+            </a>
+</div>
 </main>
+
 <!-- Footer -->
 <footer class="w-full bg-[#0a0a0a] border-t border-white/5 text-white">
 <div class="max-w-container-max mx-auto px-gutter pt-20 pb-10">
 <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-20">
 <div class="col-span-1 md:col-span-1">
 <a class="inline-block mb-8" href="index.html">
-<span class="text-headline-sm font-headline-sm text-heritage-gold">Pérez Torres Abogados</span>
+<img alt="Logo Footer" class="h-12 w-auto invert opacity-80" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBJ_l4yKp8gtZUF535gF2Mq884dUzQyMpjyR5EX4iLi7D7RBy8-oOlwfobmyH5FwVCNeBCmKc_kUAohmU5wdyKBwELNoi8IP8jTVc3iRWFOyQ3jL4YkPiqn4anDPJ91hms7RpMCDEklC80M-chhhKL8aYy8sgNc6S5Y41mu-hV3PLt_H3nlQmFOU5Nqn7Hbz8E5VIvQmxwqwrbnWJkfFqYtgUa49pDJastOmv5yj53yAOeFDthoZ6ja6OREYq1nRXG8TNY"/>
 </a>
 <p class="text-white/40 text-sm leading-relaxed mb-6 font-body-md">Excelencia jurídica y compromiso institucional para proteger lo que más le importa.</p>
 <div class="flex items-center space-x-4">
 <a class="w-10 h-10 rounded-none border border-white/10 flex items-center justify-center text-white/60 hover:text-heritage-gold hover:border-heritage-gold transition-all" href="index.html" title="Sitio Web">
 <span class="material-symbols-outlined text-lg">public</span>
 </a>
-<a class="w-10 h-10 rounded-none border border-white/10 flex items-center justify-center text-white/60 hover:text-heritage-gold hover:border-heritage-gold transition-all" href="https://wa.me/525523963530?text=Hola%2C%20tengo%20una%20consulta%20sobre%20derecho%20mercantil" target="_blank" title="WhatsApp">
+<a class="w-10 h-10 rounded-none border border-white/10 flex items-center justify-center text-white/60 hover:text-heritage-gold hover:border-heritage-gold transition-all" href="https://wa.me/525523963530?text=Hola%2C%20deseo%20solicitar%20asesor%C3%ADa%20legal" target="_blank" title="WhatsApp">
 <span class="material-symbols-outlined text-lg">chat</span>
 </a>
 </div>
@@ -293,44 +313,44 @@
 <li><a class="text-white/50 text-sm hover:text-heritage-gold transition-colors font-body-md" href="fiscal.html">Derecho Fiscal</a></li>
 <li><a class="text-white/50 text-sm hover:text-heritage-gold transition-colors font-body-md" href="familiar.html">Derecho Familiar</a></li>
 <li><a class="text-white/50 text-sm hover:text-heritage-gold transition-colors font-body-md" href="civil.html">Derecho Civil</a></li>
-<li><a class="text-heritage-gold text-sm font-bold transition-colors font-body-md" href="mercantil.html">Derecho Mercantil</a></li>
+<li><a class="text-white/50 text-sm hover:text-heritage-gold transition-colors font-body-md font-bold text-heritage-gold" href="mercantil.html">Derecho Mercantil</a></li>
 </ul>
 </div>
 <div>
-<h5 class="text-white font-label-caps text-label-caps uppercase mb-6 tracking-widest">Certificaciones y Legal</h5>
-<div class="flex items-center space-x-4 bg-white/5 p-4 border border-white/10 mb-6">
-<span class="material-symbols-outlined text-heritage-gold text-3xl">verified_user</span>
-<div>
-<p class="text-[10px] text-white/60 font-label-caps uppercase">Sitio Seguro</p>
-<p class="text-xs text-white/80 font-bold">Certificado SSL 256-bit</p>
+<h5 class="text-white font-label-caps text-label-caps uppercase mb-6 tracking-widest">Contacto Directo</h5>
+<div class="space-y-4 text-sm text-white/50 font-body-md">
+<p class="flex items-start space-x-3"><span class="material-symbols-outlined text-heritage-gold text-lg flex-shrink-0 mt-0.5">location_on</span><span>C. Aniceto Ortega 817, Col del Valle Centro, Benito Juárez, 03100 Ciudad de México, CDMX</span></p>
+<p class="flex items-center space-x-3"><span class="material-symbols-outlined text-heritage-gold text-lg flex-shrink-0">call</span><a class="hover:text-heritage-gold transition-colors" href="tel:525523963530">55 2396 3530</a></p>
+<p class="flex items-center space-x-3"><span class="material-symbols-outlined text-heritage-gold text-lg flex-shrink-0">mail</span><a class="hover:text-heritage-gold transition-colors" href="mailto:contacto@pereztorres.mx">contacto@pereztorres.mx</a></p>
 </div>
 </div>
-<ul class="space-y-2">
-<li><a class="text-white/40 text-xs hover:text-heritage-gold transition-colors" href="index.html#contacto">Aviso de Privacidad</a></li>
-<li><a class="text-white/40 text-xs hover:text-heritage-gold transition-colors" href="index.html#contacto">Términos y Condiciones</a></li>
-</ul>
 </div>
+<div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-white/30 font-label-caps">
+<p>© 2024 Pérez Torres Abogados. Todos los derechos reservados.</p>
+<div class="flex space-x-6 mt-4 md:mt-0">
+<a class="hover:text-white transition-colors" href="#">Aviso de Privacidad</a>
+<a class="hover:text-white transition-colors" href="#">Términos de Uso</a>
 </div>
-<div class="pt-10 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
-<p class="text-white/30 text-[11px] font-label-caps uppercase tracking-widest">© 2026 Pérez Torres Abogados S.C. Todos los derechos reservados.</p>
-<div class="text-white/30 text-[10px] font-label-caps uppercase tracking-widest flex items-center">
-                    Hecho con <span class="material-symbols-outlined text-xs mx-1 text-red-900" style="font-variation-settings: 'FILL' 1;">favorite</span> en CDMX
-                </div>
 </div>
 </div>
 </footer>
-<!-- WhatsApp FAB -->
-<a aria-label="Contactar por WhatsApp" class="fixed bottom-8 right-8 bg-[#25D366] text-white p-4 rounded-full shadow-lg hover:scale-110 transition-transform z-50 flex items-center justify-center" href="https://wa.me/525523963530?text=Hola%2C%20tengo%20una%20consulta%20sobre%20derecho%20mercantil" rel="noopener noreferrer" target="_blank">
+
+<!-- Floating WhatsApp Button -->
+<a aria-label="Contacto directo por WhatsApp" class="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:bg-[#1ebd59] hover:scale-110 transition-all flex items-center justify-center" href="https://wa.me/525523963530?text=Hola%2C%20deseo%20solicitar%20informaci%C3%B3n%20sobre%20sus%20servicios%20en%20derecho%20mercantil" target="_blank">
 <span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">chat</span>
 </a>
+
 <script>
-        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
-        const mobileMenu = document.getElementById('mobile-menu');
-        if (mobileMenuBtn && mobileMenu) {
-            mobileMenuBtn.addEventListener('click', () => {
-                mobileMenu.classList.toggle('hidden');
-            });
-        }
+        document.addEventListener('DOMContentLoaded', () => {
+            // Mobile menu toggle
+            const mobileBtn = document.getElementById('mobile-menu-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
+            if (mobileBtn && mobileMenu) {
+                mobileBtn.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                });
+            }
+        });
 </script>
 </body>
 </html>
