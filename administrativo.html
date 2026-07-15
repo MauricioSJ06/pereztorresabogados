@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html class="light scroll-smooth" lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Derecho Administrativo | Pérez Torres Abogados</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+                    "surface": "#faf8ff",
+                    "surface-dim": "#dad9e0",
+                    "surface-bright": "#faf8ff",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-container-low": "#f4f3f9",
+                    "surface-container": "#eeedf3",
+                    "surface-container-high": "#e9e7ee",
+                    "surface-container-highest": "#e3e2e8",
+                    "on-surface": "#1a1b20",
+                    "on-surface-variant": "#444650",
+                    "inverse-surface": "#2f3035",
+                    "inverse-on-surface": "#f1f0f6",
+                    "outline": "#757682",
+                    "outline-variant": "#c4c6d2",
+                    "surface-tint": "#415ca0",
+                    "primary": "#002363",
+                    "on-primary": "#ffffff",
+                    "primary-container": "#1d3a7d",
+                    "on-primary-container": "#8da7f1",
+                    "inverse-primary": "#b3c5ff",
+                    "secondary": "#735a3a",
+                    "on-secondary": "#ffffff",
+                    "secondary-container": "#fddab2",
+                    "on-secondary-container": "#785e3e",
+                    "tertiary": "#1a2a36",
+                    "on-tertiary": "#ffffff",
+                    "tertiary-container": "#30404d",
+                    "on-tertiary-container": "#9babba",
+                    "error": "#ba1a1a",
+                    "on-error": "#ffffff",
+                    "error-container": "#ffdad6",
+                    "on-error-container": "#93000a",
+                    "primary-fixed": "#dae1ff",
+                    "primary-fixed-dim": "#b3c5ff",
+                    "on-primary-fixed": "#001849",
+                    "on-primary-fixed-variant": "#284387",
+                    "secondary-fixed": "#ffddb6",
+                    "secondary-fixed-dim": "#e2c19b",
+                    "on-secondary-fixed": "#291801",
+                    "on-secondary-fixed-variant": "#594325",
+                    "tertiary-fixed": "#d4e5f5",
+                    "tertiary-fixed-dim": "#b8c8d8",
+                    "on-tertiary-fixed": "#0d1d29",
+                    "on-tertiary-fixed-variant": "#394955",
+                    "background": "#faf8ff",
+                    "on-background": "#1a1b20",
+                    "surface-variant": "#e3e2e8",
+                    "oxford-navy": "#1D3A7D",
+                    "heritage-gold": "#A68966",
+                    "statute-gray": "#333333",
+                    "parchment": "#F9F9F9",
+                    "silver-lining": "#DADADA"
+            },
+            borderRadius: {
+                    DEFAULT: "0px",
+                    lg: "0px",
+                    xl: "0px",
+                    full: "9999px"
+            },
+            spacing: {
+                    "unit": "8px",
+                    "container-max": "1200px",
+                    "gutter": "32px",
+                    "margin-mobile": "20px",
+                    "section-padding": "120px"
+            },
+            fontFamily: {
+                    "display-lg": ["Playfair Display", "serif"],
+                    "display-lg-mobile": ["Playfair Display", "serif"],
+                    "headline-md": ["Playfair Display", "serif"],
+                    "headline-sm": ["Playfair Display", "serif"],
+                    "body-lg": ["Inter", "sans-serif"],
+                    "body-md": ["Inter", "sans-serif"],
+                    "label-caps": ["Inter", "sans-serif"],
+                    "callout": ["Inter", "sans-serif"]
+            },
+            fontSize: {
+                    "display-lg": ["48px", { lineHeight: "1.1", letterSpacing: "-0.02em", fontWeight: "700" }],
+                    "display-lg-mobile": ["36px", { lineHeight: "1.2", fontWeight: "700" }],
+                    "headline-md": ["32px", { lineHeight: "1.3", fontWeight: "600" }],
+                    "headline-sm": ["24px", { lineHeight: "1.4", fontWeight: "600" }],
+                    "body-lg": ["18px", { lineHeight: "1.6", fontWeight: "400" }],
+                    "body-md": ["16px", { lineHeight: "1.6", fontWeight: "400" }],
+                    "label-caps": ["12px", { lineHeight: "1.2", letterSpacing: "0.1em", fontWeight: "600" }],
+                    "callout": ["14px", { lineHeight: "1.4", fontWeight: "500" }]
+            }
+          }
+        }
+      }
+</script>
+<link href="assets/css/styles.css" rel="stylesheet"/>
+</head>
+<body class="bg-surface font-body-md text-on-surface antialiased selection:bg-heritage-gold selection:text-white">
+<!-- TopNavBar -->
+<header class="fixed top-0 w-full z-50 border-t-2 border-heritage-gold bg-surface transition-all duration-300 shadow-sm" id="main-nav">
+<div class="flex justify-between items-center px-gutter py-4 max-w-container-max mx-auto">
+<a aria-label="Inicio" class="flex-shrink-0" href="index.html">
+<span class="text-headline-sm font-headline-sm text-oxford-navy">Pérez Torres Abogados</span>
+</a>
+<nav class="hidden lg:flex items-center space-x-8">
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-heritage-gold transition-colors duration-300" href="index.html">Inicio</a>
+<div class="relative group">
+<a class="font-label-caps text-label-caps text-oxford-navy font-bold border-b-2 border-oxford-navy pb-1 hover:text-heritage-gold transition-colors duration-300 flex items-center gap-1" href="index.html#areas">Áreas <span class="material-symbols-outlined text-sm">expand_more</span></a>
+<div class="absolute left-0 mt-2 w-56 bg-white border border-silver-lining shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 py-2">
+<a class="block px-4 py-2 text-xs font-label-caps text-oxford-navy bg-surface-container-low text-heritage-gold" href="administrativo.html">Administrativo</a>
+<a class="block px-4 py-2 text-xs font-label-caps text-oxford-navy hover:bg-surface-container-low hover:text-heritage-gold transition-colors" href="fiscal.html">Fiscal</a>
+<a class="block px-4 py-2 text-xs font-label-caps text-oxford-navy hover:bg-surface-container-low hover:text-heritage-gold transition-colors" href="familiar.html">Familiar</a>
+<a class="block px-4 py-2 text-xs font-label-caps text-oxford-navy hover:bg-surface-container-low hover:text-heritage-gold transition-colors" href="civil.html">Civil</a>
+<a class="block px-4 py-2 text-xs font-label-caps text-oxford-navy hover:bg-surface-container-low hover:text-heritage-gold transition-colors" href="mercantil.html">Mercantil</a>
+</div>
+</div>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-heritage-gold transition-colors duration-300" href="index.html#resultados">Resultados</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-heritage-gold transition-colors duration-300" href="index.html#equipo">Equipo</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-heritage-gold transition-colors duration-300" href="index.html#proceso">Proceso</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-heritage-gold transition-colors duration-300" href="index.html#recursos">Recursos</a>
+</nav>
+<div class="hidden md:flex items-center space-x-6">
+<span class="font-label-caps text-label-caps text-heritage-gold">4.9/5 Google</span>
+<a class="bg-oxford-navy text-white px-6 py-2.5 font-label-caps text-label-caps hover:bg-opacity-90 transition-all uppercase tracking-widest inline-flex items-center" href="index.html#contacto">Consulta gratuita</a>
+</div>
+<button aria-label="Menu" class="lg:hidden text-oxford-navy p-2" id="mobile-menu-btn">
+<span class="material-symbols-outlined text-2xl">menu</span>
+</button>
+</div>
+<!-- Mobile Menu -->
+<div class="lg:hidden hidden bg-white border-b border-silver-lining px-gutter py-4" id="mobile-menu">
+<nav class="flex flex-col space-y-4">
+<a class="font-label-caps text-label-caps text-on-surface-variant" href="index.html">Inicio</a>
+<a class="font-label-caps text-label-caps text-oxford-navy font-bold" href="index.html#areas">Áreas de Práctica</a>
+<div class="pl-4 flex flex-col space-y-2 border-l-2 border-heritage-gold/30">
+<a class="text-xs text-heritage-gold font-bold" href="administrativo.html">Administrativo</a>
+<a class="text-xs text-statute-gray hover:text-heritage-gold" href="fiscal.html">Fiscal</a>
+<a class="text-xs text-statute-gray hover:text-heritage-gold" href="familiar.html">Familiar</a>
+<a class="text-xs text-statute-gray hover:text-heritage-gold" href="civil.html">Civil</a>
+<a class="text-xs text-statute-gray hover:text-heritage-gold" href="mercantil.html">Mercantil</a>
+</div>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-heritage-gold" href="index.html#resultados">Resultados</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-heritage-gold" href="index.html#equipo">Equipo</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-heritage-gold" href="index.html#proceso">Proceso</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-heritage-gold" href="index.html#recursos">Recursos</a>
+<a class="bg-oxford-navy text-white text-center py-3 font-label-caps uppercase tracking-wider block" href="index.html#contacto">Consulta gratuita</a>
+</nav>
+</div>
+</header>
+<main class="pt-24">
+<!-- Hero Section -->
+<section class="relative h-[614px] flex items-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<div class="w-full h-full parallax-bg opacity-20 grayscale" data-alt="A grand architectural interior of a modern courthouse or government building." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBBGqnmYle4jakGzqCgW0W1DdY3cALTXIL7AXRkRQLOkpujWjm69XE1T0guD_qreM-3q_IoLccPya5qd6Qyz6UwTvlZ9e7S80GEng60zW6c6wxI4vcv0zsXD4D49-jzNF1gf2lZovEKv78u7aQGgl3goru8607aCGHA_Zy18tJs8abAcKa-kDodkG1QwVCIA-Nw955NnhpoSyTVVacxS2w7Q5spsrUvxFQc4hsmzR8E2dtyMs0YC2yWOg')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-r from-surface via-surface/80 to-transparent"></div>
+</div>
+<div class="relative z-10 max-w-container-max mx-auto px-gutter w-full">
+<div class="max-w-2xl">
+<span class="font-label-caps text-label-caps text-heritage-gold mb-4 block uppercase">Áreas de Práctica</span>
+<h1 class="font-display-lg text-display-lg md:text-display-lg text-oxford-navy mb-6">Derecho Administrativo</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+                        Especialistas en licitaciones, procedimientos sancionadores, juicio de nulidad y defensa al consumidor. Protegemos sus intereses frente a las actuaciones de la administración pública con rigor técnico y visión estratégica.
+                    </p>
+</div>
+</div>
+</section>
+<!-- Services Section: Accordion Pattern -->
+<section class="py-section-padding bg-parchment border-y border-silver-lining">
+<div class="max-w-container-max mx-auto px-gutter">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+<div class="lg:col-span-4">
+<h2 class="font-headline-md text-headline-md text-oxford-navy sticky top-32">Nuestros Servicios Especializados</h2>
+<div class="w-16 h-1 bg-heritage-gold mt-4"></div>
+</div>
+<div class="lg:col-span-8 space-y-4">
+<!-- Licitaciones -->
+<div class="accordion-item border-b border-silver-lining py-6 cursor-pointer group accordion-active" onclick="toggleAccordion(this)">
+<div class="flex justify-between items-center">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-heritage-gold transition-colors">Licitaciones Públicas</h3>
+<span class="material-symbols-outlined accordion-icon transition-transform duration-300 text-heritage-gold">expand_more</span>
+</div>
+<div class="accordion-content">
+<p class="pt-4 font-body-md text-on-surface-variant">Asesoría integral en todas las etapas de la contratación pública. Desde el análisis de bases y preparación de propuestas técnicas, hasta la impugnación de fallos y gestión de contratos administrativos estatales y federales.</p>
+</div>
+</div>
+<!-- Sancionadores -->
+<div class="accordion-item border-b border-silver-lining py-6 cursor-pointer group" onclick="toggleAccordion(this)">
+<div class="flex justify-between items-center">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-heritage-gold transition-colors">Procedimientos Administrativos Sancionadores</h3>
+<span class="material-symbols-outlined accordion-icon transition-transform duration-300 text-heritage-gold">expand_more</span>
+</div>
+<div class="accordion-content">
+<p class="pt-4 font-body-md text-on-surface-variant">Defensa técnica frente a multas, clausuras, suspensiones y cualquier acto de molestia emitido por autoridades administrativas que pretenda sancionar a su empresa o persona física.</p>
+</div>
+</div>
+<!-- Juicio de nulidad -->
+<div class="accordion-item border-b border-silver-lining py-6 cursor-pointer group" onclick="toggleAccordion(this)">
+<div class="flex justify-between items-center">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-heritage-gold transition-colors">Juicio de Nulidad</h3>
+<span class="material-symbols-outlined accordion-icon transition-transform duration-300 text-heritage-gold">expand_more</span>
+</div>
+<div class="accordion-content">
+<p class="pt-4 font-body-md text-on-surface-variant">Litigio ante el Tribunal Federal de Justicia Administrativa y tribunales locales para la anulación de actos de autoridad ilegales, créditos fiscales y resoluciones administrativas adversas.</p>
+</div>
+</div>
+<!-- Defensa del consumidor -->
+<div class="accordion-item border-b border-silver-lining py-6 cursor-pointer group" onclick="toggleAccordion(this)">
+<div class="flex justify-between items-center">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-heritage-gold transition-colors">Defensa del Consumidor</h3>
+<span class="material-symbols-outlined accordion-icon transition-transform duration-300 text-heritage-gold">expand_more</span>
+</div>
+<div class="accordion-content">
+<p class="pt-4 font-body-md text-on-surface-variant">Representación especializada ante la PROFECO. Gestión de quejas, conciliaciones y procedimientos por infracción a la Ley Federal de Protección al Consumidor.</p>
+</div>
+</div>
+<!-- CDMX/DF -->
+<div class="accordion-item border-b border-silver-lining py-6 cursor-pointer group" onclick="toggleAccordion(this)">
+<div class="flex justify-between items-center">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-heritage-gold transition-colors">Actos de Autoridades del D.F. (CDMX)</h3>
+<span class="material-symbols-outlined accordion-icon transition-transform duration-300 text-heritage-gold">expand_more</span>
+</div>
+<div class="accordion-content">
+<p class="pt-4 font-body-md text-on-surface-variant">Impugnación de actos emitidos por las Alcaldías, la Secretaría de Finanzas y demás organismos de la Ciudad de México, incluyendo temas de desarrollo urbano y uso de suelo.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-section-padding bg-surface">
+<div class="max-w-container-max mx-auto px-gutter text-center">
+<div class="max-w-3xl mx-auto space-y-8">
+<h2 class="font-headline-md text-headline-md text-oxford-navy">¿Requiere asesoría inmediata en materia administrativa?</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">Nuestro equipo de expertos está listo para analizar su caso y proponer la mejor estrategia legal para su protección.</p>
+<div class="flex flex-col md:flex-row items-center justify-center gap-6 pt-4">
+<a class="flex items-center justify-center text-white px-10 py-5 font-label-caps text-label-caps hover:opacity-90 transition-all uppercase tracking-widest group w-full md:w-auto" href="https://wa.me/525523963530?text=Hola%2C%20tengo%20una%20consulta%20sobre%20derecho%20administrativo" style="background-color: #c2a37e;" target="_blank">
+<span class="material-symbols-outlined mr-3" style="font-variation-settings: 'FILL' 1;">chat</span>
+                            Consulta sobre Derecho Administrativo
+                        </a>
+<a class="flex items-center justify-center text-oxford-navy border border-heritage-gold px-10 py-5 font-label-caps text-label-caps hover:bg-parchment transition-all uppercase tracking-widest w-full md:w-auto" href="index.html">
+<span class="material-symbols-outlined mr-3">arrow_back</span>
+                            Regresar a Inicio
+                        </a>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full bg-[#0a0a0a] border-t border-white/5 text-white">
+<div class="max-w-container-max mx-auto px-gutter pt-20 pb-10">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-20">
+<div class="col-span-1 md:col-span-1">
+<a class="inline-block mb-8" href="index.html">
+<span class="text-headline-sm font-headline-sm text-heritage-gold">Pérez Torres Abogados</span>
+</a>
+<p class="text-white/40 text-sm leading-relaxed mb-6 font-body-md">Excelencia jurídica y compromiso institucional para proteger lo que más le importa.</p>
+<div class="flex items-center space-x-4">
+<a class="w-10 h-10 rounded-none border border-white/10 flex items-center justify-center text-white/60 hover:text-heritage-gold hover:border-heritage-gold transition-all" href="index.html" title="Sitio Web">
+<span class="material-symbols-outlined text-lg">public</span>
+</a>
+<a class="w-10 h-10 rounded-none border border-white/10 flex items-center justify-center text-white/60 hover:text-heritage-gold hover:border-heritage-gold transition-all" href="https://wa.me/525523963530?text=Hola%2C%20tengo%20una%20consulta%20sobre%20derecho%20administrativo" target="_blank" title="WhatsApp">
+<span class="material-symbols-outlined text-lg">chat</span>
+</a>
+</div>
+</div>
+<div>
+<h5 class="text-white font-label-caps text-label-caps uppercase mb-6 tracking-widest">Navegación</h5>
+<ul class="space-y-4">
+<li><a class="text-white/50 text-sm hover:text-heritage-gold transition-colors font-body-md" href="index.html">Inicio</a></li>
+<li><a class="text-white/50 text-sm hover:text-heritage-gold transition-colors font-body-md" href="index.html#areas">Áreas de Práctica</a></li>
+<li><a class="text-white/50 text-sm hover:text-heritage-gold transition-colors font-body-md" href="index.html#equipo">Nuestro Equipo</a></li>
+<li><a class="text-white/50 text-sm hover:text-heritage-gold transition-colors font-body-md" href="index.html#proceso">Metodología</a></li>
+<li><a class="text-white/50 text-sm hover:text-heritage-gold transition-colors font-body-md" href="index.html#recursos">Recursos Legales</a></li>
+<li><a class="text-white/50 text-sm hover:text-heritage-gold transition-colors font-body-md" href="index.html#contacto">Contacto</a></li>
+</ul>
+</div>
+<div>
+<h5 class="text-white font-label-caps text-label-caps uppercase mb-6 tracking-widest">Áreas Legales</h5>
+<ul class="space-y-4">
+<li><a class="text-heritage-gold text-sm font-bold transition-colors font-body-md" href="administrativo.html">Derecho Administrativo</a></li>
+<li><a class="text-white/50 text-sm hover:text-heritage-gold transition-colors font-body-md" href="fiscal.html">Derecho Fiscal</a></li>
+<li><a class="text-white/50 text-sm hover:text-heritage-gold transition-colors font-body-md" href="familiar.html">Derecho Familiar</a></li>
+<li><a class="text-white/50 text-sm hover:text-heritage-gold transition-colors font-body-md" href="civil.html">Derecho Civil</a></li>
+<li><a class="text-white/50 text-sm hover:text-heritage-gold transition-colors font-body-md" href="mercantil.html">Derecho Mercantil</a></li>
+</ul>
+</div>
+<div>
+<h5 class="text-white font-label-caps text-label-caps uppercase mb-6 tracking-widest">Certificaciones y Legal</h5>
+<div class="flex items-center space-x-4 bg-white/5 p-4 border border-white/10 mb-6">
+<span class="material-symbols-outlined text-heritage-gold text-3xl">verified_user</span>
+<div>
+<p class="text-[10px] text-white/60 font-label-caps uppercase">Sitio Seguro</p>
+<p class="text-xs text-white/80 font-bold">Certificado SSL 256-bit</p>
+</div>
+</div>
+<ul class="space-y-2">
+<li><a class="text-white/40 text-xs hover:text-heritage-gold transition-colors" href="index.html#contacto">Aviso de Privacidad</a></li>
+<li><a class="text-white/40 text-xs hover:text-heritage-gold transition-colors" href="index.html#contacto">Términos y Condiciones</a></li>
+</ul>
+</div>
+</div>
+<div class="pt-10 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
+<p class="text-white/30 text-[11px] font-label-caps uppercase tracking-widest">© 2026 Pérez Torres Abogados S.C. Todos los derechos reservados.</p>
+<div class="text-white/30 text-[10px] font-label-caps uppercase tracking-widest flex items-center">
+                    Hecho con <span class="material-symbols-outlined text-xs mx-1 text-red-900" style="font-variation-settings: 'FILL' 1;">favorite</span> en CDMX
+                </div>
+</div>
+</div>
+</footer>
+<!-- WhatsApp FAB -->
+<a aria-label="Contactar por WhatsApp" class="fixed bottom-8 right-8 bg-[#25D366] text-white p-4 rounded-full shadow-lg hover:scale-110 transition-transform z-50 flex items-center justify-center" href="https://wa.me/525523963530?text=Hola%2C%20tengo%20una%20consulta%20sobre%20derecho%20administrativo" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">chat</span>
+</a>
+<script>
+        function toggleAccordion(element) {
+            const allItems = document.querySelectorAll('.accordion-item');
+            const isActive = element.classList.contains('accordion-active');
+
+            allItems.forEach(item => {
+                item.classList.remove('accordion-active');
+            });
+
+            if (!isActive) {
+                element.classList.add('accordion-active');
+            }
+        }
+
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        if (mobileMenuBtn && mobileMenu) {
+            mobileMenuBtn.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+        }
+</script>
+</body>
+</html>

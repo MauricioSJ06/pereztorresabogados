@@ -1,0 +1,102 @@
+/* ==========================================================================
+   Pérez Torres Abogados - Sistema de Diseño Oficial (DESIGN.md)
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;600;700&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap');
+
+/* Base & Typography Settings */
+body {
+    background-color: #faf8ff;
+    color: #1a1b20;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Material Symbols Outlined Configuration */
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+/* Text & Gradient Utilities */
+.text-gradient {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-glow {
+    text-shadow: 0 0 15px rgba(166, 137, 102, 0.2);
+}
+
+.text-shadow-subtle {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Hero Background Patterns */
+.hero-pattern {
+    background-color: #faf8ff;
+    background-image: radial-gradient(#DADADA 1px, transparent 1px);
+    background-size: 24px 24px;
+}
+
+/* Parallax Background */
+.parallax-bg {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Scrollbar Hide Utilities */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* Accordion Utilities (Derecho Administrativo) */
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+.accordion-active .accordion-content {
+    max-height: 500px;
+}
+.accordion-active .accordion-icon {
+    transform: rotate(180deg);
+}
+
+/* Signature Line Effect (Derecho Civil & Input Fields) */
+.signature-line {
+    position: relative;
+}
+.signature-line::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #DADADA;
+}
+
+/* Micro-interactions & Focus States from DESIGN.md */
+button, a {
+    outline: none;
+}
+button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visible {
+    outline: 1px solid #1D3A7D;
+    outline-offset: 2px;
+}
+
+/* Responsive & Layout Enhancements */
+@media (max-width: 768px) {
+    .parallax-bg {
+        background-attachment: scroll;
+    }
+}
